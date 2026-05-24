@@ -1,0 +1,36 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Node / React
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+
+# Docker
+*.pid
+
+# Data / secrets
+data/*.raw.json
+data/*_raw.json
+backend/src/main/resources/application-local.yml
+
+# PostgreSQL
+postgres-data/
