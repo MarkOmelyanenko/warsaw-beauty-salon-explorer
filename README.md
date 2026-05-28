@@ -5,7 +5,7 @@
 A local services marketplace foundation for Warsaw beauty salons: browse salons by district and service, view details (contact, ratings, price ranges, service list), and edit records via a simple web UI. The app ships with seed data collected from public Booksy listings (enriched optionally with Google Places for phone numbers), served by a Spring Boot API and a React frontend.
 
 ```
-Booksy (+ Google)  →  salons_clean.json  →  PostgreSQL (seed on startup)  →  REST API  →  React UI
+Booksy (+ Google)  →  salons_clean.json  →  PostgreSQL (seed on startup)  →  REST API (Spring Boot)  →  React UI
 ```
 
 ## 2. Tech stack
