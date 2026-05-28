@@ -177,7 +177,7 @@ Parsing prefers **JSON-LD** embedded in Booksy HTML, then **regex fallbacks** on
 - **Record level:** `normalized(name)|normalized(address)` merge keys prevent duplicate salons across categories (`seen_merge_keys` during collection; again when serializing JSON).
 - **Diversity:** at most **two salons per Booksy category per district** so the sample is not dominated by a single category.
 
-Default collection target is **7 salons per district** (18 districts → up to 126 records), configurable via `--target-per-district`.
+Default collection target is **7 salons per district**, configurable via `--target-per-district`.
 
 ## 5. What I'd improve with more time
 
