@@ -20,6 +20,7 @@ build/
 .env
 .env.local
 .env.production
+!.env.example
 
 # Logs
 *.log
@@ -28,8 +29,9 @@ build/
 *.pid
 
 # Data / secrets
-data/*.raw.json
+data/.venv/
 data/*_raw.json
+data/salons_raw.json
 backend/src/main/resources/application-local.yml
 
 # PostgreSQL

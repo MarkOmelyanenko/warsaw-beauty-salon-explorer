@@ -1,7 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
+  // Load VITE_* from repo-root .env (shared with backend and docker compose)
+  envDir: '..',
   plugins: [react()],
+  server: {
+    port: 5173,
+  },
 })

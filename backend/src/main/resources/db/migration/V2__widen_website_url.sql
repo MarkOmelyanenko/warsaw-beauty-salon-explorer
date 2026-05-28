@@ -1,0 +1,2 @@
+ALTER TABLE salons
+    ALTER COLUMN website_url TYPE VARCHAR(2048);
